@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE3079302B08FD8F0054FA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		CE3079312B08FF470054FA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		F48C02332A9F782100B83B32 /* camelGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camelGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48C02362A9F782100B83B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,7 +162,6 @@
 		CE30792F2B08FD880054FA6D /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE3079302B08FD8F0054FA6D /* en */,
 				CE3079312B08FF470054FA6D /* Base */,
 			);
 			name = Info.plist;
