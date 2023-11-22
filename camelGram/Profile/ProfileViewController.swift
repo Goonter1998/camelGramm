@@ -8,10 +8,10 @@
 import UIKit
 
 final class ProfileViewController: UIViewController {
-    @IBOutlet weak var avatarImageView: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var loginNameLabel: UILabel!
-    @IBOutlet weak var discriptionNameLabel: UILabel!
-    @IBOutlet weak var logoutButton: UIButton!
+    @IBOutlet var avatarImageView: UIImageView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var loginNameLabel: UILabel!
+    @IBOutlet var discriptionNameLabel: UILabel!
+    @IBOutlet var logoutButton: UIButton!
     
 }
