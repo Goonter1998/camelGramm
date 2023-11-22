@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE62C7A72B0BD58400A27873 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62C7A62B0BD58400A27873 /* ProfileViewController.swift */; };
 		F48C02372A9F782100B83B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C02362A9F782100B83B32 /* AppDelegate.swift */; };
 		F48C02392A9F782100B83B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C02382A9F782100B83B32 /* SceneDelegate.swift */; };
 		F48C023B2A9F782100B83B32 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C023A2A9F782100B83B32 /* ImagesListViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		CE3079312B08FF470054FA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		CE62C7A62B0BD58400A27873 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F48C02332A9F782100B83B32 /* camelGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camelGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48C02362A9F782100B83B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48C02382A9F782100B83B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE62C7A82B0BD58E00A27873 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE62C7A62B0BD58400A27873 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		F48C022A2A9F782100B83B32 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		F48C02352A9F782100B83B32 /* camelGram */ = {
 			isa = PBXGroup;
 			children = (
+				CE62C7A82B0BD58E00A27873 /* Profile */,
 				F48C026C2A9FA03900B83B32 /* ImagesList */,
 				F48C02362A9F782100B83B32 /* AppDelegate.swift */,
 				F48C02382A9F782100B83B32 /* SceneDelegate.swift */,
@@ -151,6 +162,7 @@
 			files = (
 				F48C023B2A9F782100B83B32 /* ImagesListViewController.swift in Sources */,
 				F48C026B2A9FA01300B83B32 /* ImagesListCell.swift in Sources */,
+				CE62C7A72B0BD58400A27873 /* ProfileViewController.swift in Sources */,
 				F48C02372A9F782100B83B32 /* AppDelegate.swift in Sources */,
 				F48C02392A9F782100B83B32 /* SceneDelegate.swift in Sources */,
 			);
