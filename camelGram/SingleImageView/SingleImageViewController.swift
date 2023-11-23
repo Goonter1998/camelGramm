@@ -15,16 +15,17 @@ final class SingleImageViewController: UIViewController {
                 rescaleAndCenterImageInScrollView(image: image)
             }
         }
+    @IBOutlet private var scrollView: UIScrollView!
+    @IBOutlet weak var imageView: UIImageView!
     
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet private var imageView: UIImageView!
     override func viewDidLoad() {
-            super.viewDidLoad()
-            imageView.image = image
-            rescaleAndCenterImageInScrollView(image: image)
-            scrollView.minimumZoomScale = 0.1
-            scrollView.maximumZoomScale = 1.25
+        super.viewDidLoad()
+        imageView.image = image
+        rescaleAndCenterImageInScrollView(image: image)
+        scrollView.minimumZoomScale = 0.1
+        scrollView.maximumZoomScale = 1.25
         }
+    
     private func rescaleAndCenterImageInScrollView(image: UIImage) {
         let minZoomScale = scrollView.minimumZoomScale
         let maxZoomScale = scrollView.maximumZoomScale
