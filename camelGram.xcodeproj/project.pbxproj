@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE57B4E02B0EC0F800C5E794 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57B4DF2B0EC0F800C5E794 /* Colors.swift */; };
+		CE57B4E32B0ECAF400C5E794 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57B4E22B0ECAF400C5E794 /* Constants.swift */; };
 		CE62C7A72B0BD58400A27873 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62C7A62B0BD58400A27873 /* ProfileViewController.swift */; };
 		CE62C7AA2B0E5B9900A27873 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62C7A92B0E5B9900A27873 /* SingleImageViewController.swift */; };
 		F48C02372A9F782100B83B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C02362A9F782100B83B32 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		CE3079312B08FF470054FA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		CE57B4DF2B0EC0F800C5E794 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CE57B4E22B0ECAF400C5E794 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE62C7A62B0BD58400A27873 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CE62C7A92B0E5B9900A27873 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		F48C02332A9F782100B83B32 /* camelGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camelGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				CE57B4DF2B0EC0F800C5E794 /* Colors.swift */,
+				CE57B4E22B0ECAF400C5E794 /* Constants.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				F48C02372A9F782100B83B32 /* AppDelegate.swift in Sources */,
 				CE62C7AA2B0E5B9900A27873 /* SingleImageViewController.swift in Sources */,
 				F48C02392A9F782100B83B32 /* SceneDelegate.swift in Sources */,
+				CE57B4E32B0ECAF400C5E794 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
